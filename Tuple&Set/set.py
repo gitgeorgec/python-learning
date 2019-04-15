@@ -10,7 +10,7 @@ s = {1, 4, 5}
 4 in s # True
 8 in s # False
 
-# METHOD 
+# METHOD
 # add
 s = set([1, 2, 3])
 s.add(4) # {1, 2, 3, 4}
@@ -39,4 +39,14 @@ s.clear() # set()
 # intersection
 # symmetric_difference
 # union
-math_students = ["Matt", "Kitty", "John", "Oeei"]
+math_students = {"Matt", "Kitty", "John", "Oeei", "Jane", "Colt"}
+biology_students = {"Oliver", "James", "John", "Matt", "Jane", "Helen"}
+
+union = math_students | biology_students
+intersection = math_students & biology_students
+
+print(union)
+print(intersection)
+
+# Set Comprehension
+print({x**2 for x in range(10)})
