@@ -19,9 +19,19 @@ print(f"pop(0): {data}")
 data.remove("hi")
 print(f"remove(hi): {data}")
 
-
-
 data.clear()
 print(f"clear(): {data}")
 
+first_list = [1, 2, 3, 4, 2, 3, 4, 1, 32, 32, 11, 113]
+print(first_list.index(2))
+print(first_list.count(32))
 
+name= ["a", "b", "c"]
+name.reverse()
+print(name)
+
+first_list.sort()
+print(first_list)
+
+word = ["hello", "world", "good", "morning"]
+print(" ".join(word))
