@@ -19,6 +19,12 @@ print(f"pop(0): {data}")
 data.remove("hi")
 print(f"remove(hi): {data}")
 
+# swap
+names = ["Alex", "Bill"]
+
+names[0], names[1] = names[1], names[0]
+print(names)
+
 data.clear()
 print(f"clear(): {data}")
 
