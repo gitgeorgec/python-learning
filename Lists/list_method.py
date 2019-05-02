@@ -12,7 +12,7 @@ print(f"insert(): {data}")
 
 data.pop()
 print(f"pop(): {data}")
-
+ -=
 data.pop(0)
 print(f"pop(0): {data}")
 
@@ -29,8 +29,8 @@ data.clear()
 print(f"clear(): {data}")
 
 first_list = [1, 2, 3, 4, 2, 3, 4, 1, 32, 32, 11, 113]
-print(first_list.index(2))
-print(first_list.count(32))
+print(first_list.index(2)) # 1
+print(first_list.count(32)) # 2
 
 name= ["a", "b", "c"]
 name.reverse()
