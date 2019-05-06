@@ -12,7 +12,6 @@ print(f"insert(): {data}")
 
 data.pop()
 print(f"pop(): {data}")
- -=
 data.pop(0)
 print(f"pop(0): {data}")
 
