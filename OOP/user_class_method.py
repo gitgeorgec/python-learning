@@ -36,11 +36,12 @@ class User:
 		self.age += 1
 		return f"Happy {self.age}th, {self.first}"
 
-user1 = User("Joe", "Smith", 24)
-user2 = User("Blance", "Lopez", 41)
+if __name__ == "__main__":
+	user1 = User("Joe", "Smith", 24)
+	user2 = User("Blance", "Lopez", 41)
 
-print(User.display_active_user())
+	print(User.display_active_user())
 
 
-Tom = User.form_string("Tom, Jones, 12")
-print(Tom.is_seniot())
+	Tom = User.form_string("Tom, Jones, 12")
+	print(Tom.is_seniot())
