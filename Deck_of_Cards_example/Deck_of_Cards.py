@@ -47,13 +47,14 @@ class Deck:
 		shuffle(self.cards)
 		return self
 
-d = Deck()
-d.shuffle()
-card = d.deal_card()
-print(card)
-hand = d.deal_hand(5)
-print(hand)
-
-# iterator
-for card in d:
+if __name__ == "__main__":
+	d = Deck()
+	d.shuffle()
+	card = d.deal_card()
 	print(card)
+	hand = d.deal_hand(5)
+	print(hand)
+
+	# iterator
+	for card in d:
+		print(card)
